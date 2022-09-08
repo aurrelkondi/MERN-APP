@@ -1,0 +1,22 @@
+{
+  "name": "mern_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "server": "nodemon server.js --ignore './client'"
+  },
+  "dependencies": {
+    "cors": "*",
+    "dotenv": "*",
+    "express": "*",
+    "mongoose": "*"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^7.4.0",
+    "nodemon": "*"
+  },
+  "author": "hudir",
+  "license": "ISC"
+}
